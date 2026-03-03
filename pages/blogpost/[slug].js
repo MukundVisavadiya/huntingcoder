@@ -7,6 +7,10 @@ import * as fs from "fs";
 // Step:2 Populate them inside the page
 
 const Slug = (props) => {
+  function createMarkup(description) {
+    return { __html: description };
+  }
+
   const [blog, setBlog] = useState(props.blog);
 
   // Using API Get Blog Data
@@ -28,7 +32,9 @@ const Slug = (props) => {
     <>
       <div className={blogPost.main}>
         <h1>{blog && blog.title}</h1>
-        <div>{blog && blog.content}</div>
+        {blog && (
+          <div dangerouslySetInnerHTML={createMarkup(blog.content)}></div>
+        )}
       </div>
     </>
   );

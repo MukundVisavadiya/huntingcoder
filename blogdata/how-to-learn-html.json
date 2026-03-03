@@ -1,6 +1,7 @@
 {
-    "title":"How to Learn HTML",
-    "content":"To learn JavaScript, you should follow a structured approach that emphasizes understanding fundamental concepts, practicing through projects, and utilizing high-quality resources. Consistency is key, and balancing theory with practical coding is essential for mastery. ",
-    "author":"Mukund",
-    "slug": "how-to-learn-html"
+  "title": "How to Learn HTML",
+  "content": "<h1>Heading One</h1><p>\r\n No sir, I'm gonna make something out of myself, I'm going to night school and one day I'm gonna be somebody. Oh, I've been so worried about you ever since you ran off the other night. Are you okay? I'm sorry I have to go. Isn't he a dream boat? She's just trying to keep you respectable. Doc, you don't just walk into a store and ask for plutonium. Did you rip this off? Marty, such a nice name.\r\n</p>\r\n<h2>Heading Two</h2>\r\n<p>\r\n Doc, Doc, it's me, Marty. Who's are these? I got enough practical jokes for one evening. Good night, future boy. His head's gone, it's like it's been erased. George, there's nothing to be scared of. All it takes is a little self confidence. You know, if you put your mind to it, you could accomplish anything.\r\n</p>\r\n<h3>Heading Three</h3>\r\n<p>\r\n Well, they're your parents, you must know them. What are their common interests, what do they like to do together? I followed you. Ah. Whoa. Just turn around, McFly, and walk away. Are you deaf, McFly? Close the door and beat it. Right.\r\n</p>",
+  "author": "Mukund",
+  "slug": "how-to-learn-html",
+  "metadec": "To learn JavaScript, you should follow a structured approach that emphasizes understanding fundamental concepts, practicing through projects, and utilizing high-quality resources. Consistency is key, and balancing theory with practical coding is essential for mastery. "
 }
