@@ -140,19 +140,18 @@ a.secondary {
   }
 }
 
-.mainnav ul{
-  display:flex;
+.mainnav ul {
+  display: flex;
   justify-content: center;
-  margin-top:50px;
+  margin: 50px 0px;
 }
 
-.mainnav ul li{
+.mainnav ul li {
   margin: 0 24px;
-  font-weight:bold;
+  font-weight: bold;
   list-style: none;
 }
 
-.myImg
-{
-  border-radius:10px;
+.myImg {
+  border-radius: 10px;
 }
