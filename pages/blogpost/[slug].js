@@ -31,7 +31,7 @@ const Slug = (props) => {
   return (
     <>
       <div className={blogPost.main}>
-        <h1>{blog && blog.title}</h1>
+        <h1 className={blogPost.title}>{blog && blog.title}</h1>
         {blog && (
           <div dangerouslySetInnerHTML={createMarkup(blog.content)}></div>
         )}

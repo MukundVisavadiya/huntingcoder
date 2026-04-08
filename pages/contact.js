@@ -38,8 +38,8 @@ const Contact = () => {
 
   return (
     <>
-      <h1>Contact Us</h1>
       <div className={styles.container}>
+        <h1 className={styles.mb3}>Contact Us</h1>
         <form onSubmit={handleSubmit}>
           <div className={styles.mb3}>
             <label htmlFor="name" className={styles.formLabel}>
@@ -47,7 +47,7 @@ const Contact = () => {
             </label>
             <input
               type="text"
-              className="form-control"
+              className={styles.input}
               id="name"
               aria-describedby="emailHelp"
               placeholder="Enter name"
@@ -62,7 +62,7 @@ const Contact = () => {
             </label>
             <input
               type="email"
-              className="form-control"
+              className={styles.input}
               id="email"
               aria-describedby="emailHelp"
               placeholder="Enter email"
@@ -70,7 +70,7 @@ const Contact = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
-            <small id="emailHelp" className="form-text text-muted">
+            <small id="emailHelp" className={styles.formText}>
               We'll never share your email with anyone else.
             </small>
           </div>
@@ -80,7 +80,7 @@ const Contact = () => {
             </label>
             <input
               type="tel"
-              className="form-control"
+              className={styles.input}
               id="phone"
               placeholder="Enter phone number"
               name="phone"
@@ -88,22 +88,22 @@ const Contact = () => {
               onChange={(e) => setPhone(e.target.value)}
             />
           </div>
+
           <div className={styles.mb3}>
-            <div className="form-floating">
-              <label htmlFor="desc" className={styles.formLabel}>
-                Elaborate Your Concern
-              </label>
-              <textarea
-                className="form-control"
-                placeholder="Write your concern here"
-                id="desc"
-                value={desc}
-                name="desc"
-                onChange={(e) => setDesc(e.target.value)}
-              ></textarea>
-            </div>
+            <label htmlFor="desc" className={styles.formLabel}>
+              Elaborate Your Concern
+            </label>
+            <textarea
+              className={styles.input}
+              placeholder="Write your concern here"
+              id="desc"
+              value={desc}
+              name="desc"
+              onChange={(e) => setDesc(e.target.value)}
+            ></textarea>
           </div>
-          <button type="submit" className="btn btn-primary">
+
+          <button type="submit" className={styles.btn}>
             Submit
           </button>
         </form>
